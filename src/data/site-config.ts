@@ -12,7 +12,7 @@ const siteConfig: SiteConfig = {
     subtitle: 'Putting into words what people feel but cannot say.',
     description: 'I write about human nature, psychology, and the patterns that shape how we think, feel, and behave.',
     image: {
-        src: '/dante-preview.jpg',
+        src: '/images/my-avatar.jpg',
         alt: 'Tarun Bhardwaj'
     },
     headerNavLinks: [
