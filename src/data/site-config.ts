@@ -3,17 +3,17 @@ import hero from '../assets/images/hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://tarunbhardwaj.org',
     avatar: {
         src: avatar,
-        alt: 'Ethan Donovan'
+        alt: 'Tarun Bhardwaj'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Tarun Bhardwaj',
+    subtitle: 'Putting into words what people feel but cannot say.',
+    description: 'I write about human nature, psychology, and the patterns that shape how we think, feel, and behave.',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'Tarun Bhardwaj'
     },
     headerNavLinks: [
         {
@@ -21,19 +21,23 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
+            text: 'Essays',
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'About',
+            href: '/about'
+        },
+        {
+            text: 'Contact',
+            href: '/contact'
         }
     ],
     footerNavLinks: [
+        {
+            text: 'Essays',
+            href: '/blog'
+        },
         {
             text: 'About',
             href: '/about'
@@ -42,37 +46,33 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/tarunbhardwajj/'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://www.instagram.com/tarun_bhardwaj/'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://twitter.com/tarun_bhardwaj'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Welcome. Glad you found this.',
+        text: "Most of what shapes us happens below the surface. I write about that.\n\nEssays on human nature, psychology, behaviour, and the forces that quietly shape modern life.",
         image: {
             src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Tarun Bhardwaj'
         },
         actions: [
+            {
+                text: 'Read the Essays',
+                href: '/blog'
+            },
             {
                 text: 'Get in Touch',
                 href: '/contact'
@@ -81,14 +81,14 @@ const siteConfig: SiteConfig = {
     },
     subscribe: {
         enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Stay in the conversation',
+        text: 'One essay at a time. Straight to your inbox, no noise.',
         form: {
             action: '#'
         }
     },
     postsPerPage: 8,
-    projectsPerPage: 8
+
 };
 
 export default siteConfig;

@@ -2,13 +2,23 @@
 title: Get in touch
 seo:
   title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: No pitches. No networking for the sake of it. Just a real conversation.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+No pitches. No networking for the sake of it. Just a real conversation.
+
+If something I wrote made you think differently about something, I'd genuinely like to hear about it. If you disagree with something, even better. And if you're going through something and felt seen by a piece, that means the most.
+
+I'm also open to conversations around content, psychology, marketing, or anything that sits at the edges of those things.
 
 _Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+[tarun@tarunbhardwaj.org](mailto:tarun@tarunbhardwaj.org)
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+_Twitter/X:_
+[@tarun_bhardwaj](https://twitter.com/tarun_bhardwaj)
+
+_Instagram:_
+[@tarun_bhardwaj](https://www.instagram.com/tarun_bhardwaj/)
+
+_LinkedIn:_
+[Tarun Bhardwaj](https://www.linkedin.com/in/tarunbhardwajj/)

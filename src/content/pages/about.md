@@ -1,43 +1,40 @@
 ---
 title: About
 seo:
-  title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  title: About
+  description: Learn more about Tarun Bhardwaj and the ideas explored through this website.
   image:
     src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
+    alt: Tarun Bhardwaj
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
+![Tarun Bhardwaj](../../assets/images/about.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Tarun Bhardwaj
 
-## Ethan Donovan - Web Developer based in Estonia
+Marketer. Psychology graduate. Someone trying to put into words what people feel but can't say.
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+I live in Delhi and work at the intersection of psychology, human behaviour, and marketing. I spend a lot of time thinking about why people do what they do, and what quietly shapes the way they think, choose, and live.
 
-## Skills and Expertise
+My background is in psychology, while my professional work has been in marketing and creative media. The thread connecting both is simple: understanding people.
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+## What I'm building here
 
-## Innovation and Problem-Solving
+This is where I write and think in public.
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+I'm interested in human nature — subconscious patterns, social conditioning, self-deception, meaning, and identity. Writing helps me slow down thoughts and understand them more clearly.
 
-## Global Perspective, Local Impact
+## What shapes my thinking
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+I read widely and without much concern for categories. The Bhagavad Gita and Kafka can sit on the same shelf.
 
-## Continuous Learning
+Thinkers who've influenced me include Nanak and Buddha, Marcus Aurelius, Seneca, Carl Jung, J. Krishnamurti, and Richard Dawkins.
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+I'm less interested in rigid frameworks and more interested in the emotional and psychological reality behind ideas.
 
-## Collaboration and Communication
+## Pattern recognition as a practice
+I naturally pay attention to patterns. In behaviour, conversations, and the things people avoid saying directly.
+Writing is how I test whether those observations hold meaning beyond intuition.
+## Get in touch
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
-
-## Get in Touch
-
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
-
-_Let's build something amazing together!_
+If something here stayed with you, feel free to reach out through X/Twitter, LinkedIn, or Instagram.
