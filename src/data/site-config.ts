@@ -1,5 +1,5 @@
-import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
+import avatar from '../assets/images/my-avatar.jpg';
+import hero from '../assets/images/my-hero.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
@@ -88,7 +88,7 @@ const siteConfig: SiteConfig = {
         }
     },
     postsPerPage: 8,
-
+    projectsPerPage: 8
 };
 
 export default siteConfig;

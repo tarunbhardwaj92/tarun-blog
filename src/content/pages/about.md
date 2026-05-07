@@ -4,11 +4,11 @@ seo:
   title: About
   description: Learn more about Tarun Bhardwaj and the ideas explored through this website.
   image:
-    src: '../../assets/images/about.jpg'
+    src: '/public/images/tarun-image-landscape.jpg'
     alt: Tarun Bhardwaj
 ---
 
-![Tarun Bhardwaj](../../assets/images/about.jpg)
+![Tarun Bhardwaj](/public/images/tarun-image-landscape.jpg)
 
 ## Tarun Bhardwaj
 
@@ -33,7 +33,9 @@ Thinkers who've influenced me include Nanak and Buddha, Marcus Aurelius, Seneca,
 I'm less interested in rigid frameworks and more interested in the emotional and psychological reality behind ideas.
 
 ## Pattern recognition as a practice
+
 I naturally pay attention to patterns. In behaviour, conversations, and the things people avoid saying directly.
+
 Writing is how I test whether those observations hold meaning beyond intuition.
 ## Get in touch
 
