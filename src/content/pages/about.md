@@ -4,11 +4,11 @@ seo:
   title: About
   description: Learn more about Tarun Bhardwaj and the ideas explored through this website.
   image:
-    src: '/public/images/tarun-image-landscape.jpg'
+    src: '/images/tarun-image-landscape.jpg'
     alt: Tarun Bhardwaj
 ---
 
-![Tarun Bhardwaj](/public/images/tarun-image-landscape.jpg)
+![Tarun Bhardwaj](/images/tarun-image-landscape.jpg)
 
 ## Tarun Bhardwaj
 
