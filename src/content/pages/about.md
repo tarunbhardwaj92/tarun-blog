@@ -3,12 +3,9 @@ title: About
 seo:
   title: About
   description: Learn more about Tarun Bhardwaj and the ideas explored through this website.
-  image:
-    src: '/images/tarun-image-landscape.jpg'
-    alt: Tarun Bhardwaj
 ---
 
-![Tarun Bhardwaj](/images/tarun-image-landscape.jpg)
+<img src="/images/tarun-image-landscape.jpg" alt="Tarun Bhardwaj" />
 
 ## Tarun Bhardwaj
 
@@ -37,6 +34,7 @@ I'm less interested in rigid frameworks and more interested in the emotional and
 I naturally pay attention to patterns. In behaviour, conversations, and the things people avoid saying directly.
 
 Writing is how I test whether those observations hold meaning beyond intuition.
+
 ## Get in touch
 
 If something here stayed with you, feel free to reach out through X/Twitter, LinkedIn, or Instagram.
