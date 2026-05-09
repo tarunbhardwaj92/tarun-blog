@@ -1,0 +1,114 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Button from '../../components/Button.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Subscribe from '../../components/Subscribe.astro';
+import { sortItemsByDateDesc } from '../../utils/data-utils';
+
+export async function getStaticPaths() {
+    const reading = (await getCollection('reading')).sort(sortItemsByDateDesc);
+
+    return reading.map((note) => ({
+        params: {
+            id: note.id
+        },
+        props: {
+            note
+        }
+    }));
+}
+
+type Props = {
+    note: CollectionEntry<'reading'>;
+};
+
+const { href } = Astro.url;
+
+const { note } = Astro.props;
+
+const {
+    title,
+    author,
+    publishDate,
+    excerpt,
+    seo
+} = note.data;
+
+const { Content } = await render(note);
+---
+
+<BaseLayout
+    title={seo?.title ?? title}
+    description={seo?.description ?? excerpt}
+    image={seo?.image}
+    pageType="article"
+    showHeader={false}
+>
+
+    <article class="mb-16 sm:mb-24">
+
+        <header class="mb-10 sm:mb-14">
+
+            <p class="text-sm opacity-60">
+                <FormattedDate date={publishDate} />
+            </p>
+
+            <h1 class="mt-4 font-serif text-3xl leading-tight font-medium sm:text-5xl sm:leading-tight">
+                {title}
+            </h1>
+
+            <p class="mt-5 text-lg opacity-70">
+                {author}
+            </p>
+
+            {
+                excerpt && (
+                    <p class="mt-8 max-w-2xl text-lg leading-relaxed opacity-80">
+                        {excerpt}
+                    </p>
+                )
+            }
+
+        </header>
+
+        <div class="prose sm:prose-lg max-w-none">
+            <Content />
+        </div>
+
+        <div class="mt-10 sm:mt-14">
+            <Button
+                class="copy-url-button"
+                aria-label="Copy link"
+                data-url={href}
+            >
+                Share
+            </Button>
+        </div>
+
+    </article>
+
+    <Subscribe class="my-16 sm:my-24" />
+
+</BaseLayout>
+
+<script>
+    document.addEventListener('astro:page-load', () => {
+        const copyUrlButton = document.querySelector('.copy-url-button');
+
+        copyUrlButton?.addEventListener('click', async () => {
+            const url =
+                copyUrlButton.getAttribute('data-url') || '';
+
+            await navigator.clipboard.writeText(url);
+
+            const original = copyUrlButton.innerText;
+
+            copyUrlButton.innerText = 'Copied';
+
+            setTimeout(() => {
+                copyUrlButton.innerText = original;
+            }, 2500);
+        });
+    });
+</script>

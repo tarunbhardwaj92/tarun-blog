@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortItemsByDateDesc } from '../../utils/data-utils';
+
+const reading = (await getCollection('reading')).sort(sortItemsByDateDesc);
+---
+
+<BaseLayout
+    title="Reading Notes"
+    description="Books, ideas, and reflections that stayed with me."
+    showHeader={false}
+>
+
+    <section class="mb-16 sm:mb-24">
+
+        <h1 class="mb-6 font-serif text-3xl leading-tight sm:text-5xl">
+            Reading Notes
+        </h1>
+
+        <p class="mb-16 max-w-2xl text-base leading-relaxed opacity-80 sm:text-lg">
+            Books that changed how I think, observe, and understand people.
+        </p>
+
+        <div class="space-y-14">
+
+            {
+                reading.map((note) => (
+                    <article>
+
+                        <a
+                            href={`/reading/${note.id}/`}
+                            class="group block"
+                        >
+
+                            <h2 class="font-serif text-2xl leading-tight group-hover:underline sm:text-3xl">
+                                {note.data.title}
+                            </h2>
+
+                            <p class="mt-2 text-sm opacity-60">
+                                {note.data.author}
+                            </p>
+
+                            {
+                                note.data.excerpt && (
+                                    <p class="mt-5 max-w-2xl text-base leading-relaxed opacity-80">
+                                        {note.data.excerpt}
+                                    </p>
+                                )
+                            }
+
+                        </a>
+
+                    </article>
+                ))
+            }
+
+        </div>
+
+    </section>
+
+</BaseLayout>

@@ -8,7 +8,7 @@ tags:
   - Human Behaviour
   - Philosophy
 ---
-![header image blog 1](/images/the-question-nobody-googles.jpg)
+![header image blog 1](/images/the-question-nobody-googles.webp)
 Each passing day, billions of people type into that tiny search box on Google. Some are looking for solutions. Some want information. And some, though they may not admit it, are searching for comfort.
 
 A student in class 12th is asking "How can I learn to code?" A person struggling with their body asks "How to lose weight?" An entrepreneur building a quick commerce brand is asking "How many people buy groceries from supermarkets?" And somewhere, quietly at 2 AM, a heartbroken guy is typing "Why did she leave me?"
@@ -17,7 +17,7 @@ At surface level, everything seems normal. But the internet is a strange and rev
 
 I used Google Trends to analyse how many people are using "What", "How" and "Why" in their search queries. I wanted to see the data of the last 10 years around the globe. And the following data emerged.
 
-![Google Trends Data](/images/google-trends-why-how-what.jpg)
+![Google Trends Data](/images/google-trends-why-how-what.webp)
 
 Most of the queries have "How" in them. And a bit less, but still a huge number of people are using "What" in their searches. Compared to this, far fewer people are interested in the "Why" behind something.
 

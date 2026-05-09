@@ -1,20 +1,27 @@
-import avatar from '../assets/images/my-avatar.jpg';
-import hero from '../assets/images/my-hero.jpg';
+import avatar from '../assets/images/my-avatar.webp';
+import hero from '../assets/images/my-hero.webp';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
     website: 'https://tarunbhardwaj.org',
+
     avatar: {
         src: avatar,
         alt: 'Tarun Bhardwaj'
     },
+
     title: 'Tarun Bhardwaj',
+
     subtitle: 'Putting into words what people feel but cannot say.',
-    description: 'I write about human nature, psychology, and the patterns that shape how we think, feel, and behave.',
+
+    description:
+        'I write about human nature, psychology, and the patterns that shape how we think, feel, and behave.',
+
     image: {
-        src: '/images/my-avatar.jpg',
+        src: '/images/my-avatar.webp',
         alt: 'Tarun Bhardwaj'
     },
+
     headerNavLinks: [
         {
             text: 'Home',
@@ -25,6 +32,10 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
+            text: 'Reading',
+            href: '/reading'
+        },
+        {
             text: 'About',
             href: '/about'
         },
@@ -33,10 +44,15 @@ const siteConfig: SiteConfig = {
             href: '/contact'
         }
     ],
+
     footerNavLinks: [
         {
             text: 'Essays',
             href: '/blog'
+        },
+        {
+            text: 'Reading',
+            href: '/reading'
         },
         {
             text: 'About',
@@ -45,8 +61,9 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
+        }
     ],
+
     socialLinks: [
         {
             text: 'LinkedIn',
@@ -61,13 +78,18 @@ const siteConfig: SiteConfig = {
             href: 'https://twitter.com/tarun_bhardwaj'
         }
     ],
+
     hero: {
         title: 'Welcome. Glad you found this.',
-        text: "Most of what shapes us happens below the surface. I write about that.\n\nEssays on human nature, psychology, behaviour, and the forces that quietly shape modern life.",
+
+        text:
+            "Most of what shapes us happens below the surface. I write about that.\n\nEssays on human nature, psychology, behaviour, and the forces that quietly shape modern life.",
+
         image: {
             src: hero,
             alt: 'Tarun Bhardwaj'
         },
+
         actions: [
             {
                 text: 'Read the Essays',
@@ -79,16 +101,21 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
+
     subscribe: {
         enabled: true,
+
         title: 'Stay in the conversation',
-        text: 'One essay at a time. Straight to your inbox, no noise.',
+
+        text:
+            'One essay at a time. Straight to your inbox, no noise.',
+
         form: {
             action: '#'
         }
     },
-    postsPerPage: 8,
-    projectsPerPage: 8
+
+    postsPerPage: 8
 };
 
 export default siteConfig;
