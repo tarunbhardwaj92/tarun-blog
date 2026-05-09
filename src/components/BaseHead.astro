@@ -73,7 +73,9 @@ function formatCanonicalURL(url: string | URL) {
 <!-- High Priority Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+
 <title>{title}</title>
+
 <meta name="generator" content={Astro.generator} />
 
 <!-- Fonts -->
@@ -94,18 +96,13 @@ function formatCanonicalURL(url: string | URL) {
 />
 
 <!-- Favicons -->
-<link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="/favicon-32x32.png"
-/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
 <link
     rel="icon"
     type="image/png"
-    sizes="16x16"
-    href="/favicon-16x16.png"
+    sizes="96x96"
+    href="/favicon-96x96.png"
 />
 
 <link
@@ -133,10 +130,14 @@ function formatCanonicalURL(url: string | URL) {
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={pageType} />
+
 <meta property="og:url" content={formatCanonicalURL(canonicalURL)} />
+
 <meta property="og:title" content={title} />
 
-{description && <meta property="og:description" content={description} />}
+{description && (
+    <meta property="og:description" content={description} />
+)}
 
 {resolvedImage?.src && (
     <meta property="og:image" content={resolvedImage.src} />
@@ -148,7 +149,9 @@ function formatCanonicalURL(url: string | URL) {
 
 <!-- X/Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
+
 <meta name="twitter:url" content={formatCanonicalURL(canonicalURL)} />
+
 <meta name="twitter:title" content={title} />
 
 {description && (
