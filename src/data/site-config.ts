@@ -39,10 +39,6 @@ const siteConfig: SiteConfig = {
             text: 'About',
             href: '/about'
         },
-        {
-            text: 'Contact',
-            href: '/contact'
-        }
     ],
 
     footerNavLinks: [
